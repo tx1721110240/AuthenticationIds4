@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
 using AuthenticationIds4.DataInit;
+using IdentityServerHost.Quickstart.UI;
 
 namespace AuthenticationIds4
 {
@@ -31,13 +32,22 @@ namespace AuthenticationIds4
         {
             //services.AddControllers();
             services.AddControllersWithViews();
-            #region 客户端
-            services.AddIdentityServer()
-              .AddDeveloperSigningCredential()//默认的开发者证书 
-              .AddInMemoryClients(ClientInitConfig.GetClients())//InMemory 内存模式
-              .AddInMemoryApiScopes(ClientInitConfig.GetApiScopes())//指定作用域
-              .AddInMemoryApiResources(ClientInitConfig.GetApiResources());//能访问啥资源
-            #endregion
+           
+            var builder = services.AddIdentityServer(options =>
+            {
+                options.Events.RaiseErrorEvents = true;
+                options.Events.RaiseInformationEvents = true;
+                options.Events.RaiseFailureEvents = true;
+                options.Events.RaiseSuccessEvents = true;
+
+                // see https://identityserver4.readthedocs.io/en/latest/topics/resources.html
+                options.EmitStaticAudienceClaim = true;
+            }).AddInMemoryIdentityResources(Config.IdentityResources) //基于内存
+                .AddInMemoryApiScopes(Config.ApiScopes)
+                .AddInMemoryClients(Config.Clients)
+                .AddTestUsers(TestUsers.Users);
+            // not recommended for production - you need to store your key material somewhere secure
+            builder.AddDeveloperSigningCredential();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

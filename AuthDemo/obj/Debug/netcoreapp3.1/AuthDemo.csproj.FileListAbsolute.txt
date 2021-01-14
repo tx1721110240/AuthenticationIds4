@@ -19,7 +19,6 @@ D:\GitHub\AuthenticationIds4\AuthDemo\bin\Debug\netcoreapp3.1\Microsoft.Identity
 D:\GitHub\AuthenticationIds4\AuthDemo\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 D:\GitHub\AuthenticationIds4\AuthDemo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\GitHub\AuthenticationIds4\AuthDemo\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\GitHub\AuthenticationIds4\AuthDemo\obj\Debug\netcoreapp3.1\AuthDemo.csprojAssemblyReference.cache
 D:\GitHub\AuthenticationIds4\AuthDemo\obj\Debug\netcoreapp3.1\AuthDemo.AssemblyInfoInputs.cache
 D:\GitHub\AuthenticationIds4\AuthDemo\obj\Debug\netcoreapp3.1\AuthDemo.AssemblyInfo.cs
 D:\GitHub\AuthenticationIds4\AuthDemo\obj\Debug\netcoreapp3.1\AuthDemo.csproj.CoreCompileInputs.cache

@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -25,23 +27,21 @@ namespace AuthDemo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();//反射收集dll-控制器--action--PartManager
-            #region IdentityServer4--Client
-            services.AddAuthentication("Bearer")
-                .AddIdentityServerAuthentication(options =>
-                {
-                    options.Authority = "http://localhost:7200";//ids4的地址
-                    options.ApiName = "UserApi";
-                    options.RequireHttpsMetadata = false;
-                });
-
-            services.AddAuthorization(options =>
-            {//自定义规则，只针对Policy = "eMailPolicy" 有效
-                options.AddPolicy("eMailPolicy",
-                    policyBuilder => policyBuilder
-                    .RequireAssertion(context =>
-                    context.User.HasClaim(c => c.Type == "client_eMail")
-                    && context.User.Claims.First(c => c.Type.Equals("client_eMail")).Value.EndsWith("@qq.com")));//Client
-            });
+            #region 客户端模式/密码模式公用
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+           .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+           {
+               options.Authority = "http://localhost:7200";
+               options.RequireHttpsMetadata = false;
+               options.TokenValidationParameters = new TokenValidationParameters
+               {
+                   ValidateIssuer = true,
+                   ValidIssuer = "http://localhost:7200",
+                   ValidateAudience = true,
+                   ValidAudience = "http://localhost:7200/resources",
+                   ValidateIssuerSigningKey = true
+               };
+           });
             #endregion
         }
 

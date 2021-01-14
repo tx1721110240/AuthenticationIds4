@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\AuthenticationIds4.csproj": {}
+    "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\AuthenticationIds4.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\AuthenticationIds4.csproj": {
+    "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\AuthenticationIds4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\AuthenticationIds4.csproj",
+        "projectUniqueName": "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\AuthenticationIds4.csproj",
         "projectName": "AuthenticationIds4",
-        "projectPath": "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\AuthenticationIds4.csproj",
+        "projectPath": "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\AuthenticationIds4.csproj",
         "packagesPath": "C:\\Users\\hasee\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\obj\\",
+        "outputPath": "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

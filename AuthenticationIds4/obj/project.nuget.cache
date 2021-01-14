@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8KVz1agJfK7agu7dqbzCmV2Rdr2w6u+oVB/9kxIE1XwhfNoYJsreL10Q+cRAOq7F16cAMNWQr9QlQV/udlGM7Q==",
+  "dgSpecHash": "VXiDl//O9ou9wNBfYhBN0eOvpPS3OuaiGsxFi6kTwLaBOqjoDERMywTYCIV7PSdTB9kDpnf0R+BrT3gWrCyVLA==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\AuthenticationIds4.csproj",
+  "projectFilePath": "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\AuthenticationIds4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hasee\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
     "C:\\Users\\hasee\\.nuget\\packages\\identityserver4\\4.1.1\\identityserver4.4.1.1.nupkg.sha512",

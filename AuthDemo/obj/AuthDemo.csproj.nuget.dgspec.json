@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\AuthenticationIds4\\AuthDemo\\AuthDemo.csproj": {}
+    "D:\\GitHub\\Authenticationids4\\AuthDemo\\AuthDemo.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\AuthenticationIds4\\AuthDemo\\AuthDemo.csproj": {
+    "D:\\GitHub\\Authenticationids4\\AuthDemo\\AuthDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\AuthenticationIds4\\AuthDemo\\AuthDemo.csproj",
+        "projectUniqueName": "D:\\GitHub\\Authenticationids4\\AuthDemo\\AuthDemo.csproj",
         "projectName": "AuthDemo",
-        "projectPath": "D:\\GitHub\\AuthenticationIds4\\AuthDemo\\AuthDemo.csproj",
+        "projectPath": "D:\\GitHub\\Authenticationids4\\AuthDemo\\AuthDemo.csproj",
         "packagesPath": "C:\\Users\\hasee\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\AuthenticationIds4\\AuthDemo\\obj\\",
+        "outputPath": "D:\\GitHub\\Authenticationids4\\AuthDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
