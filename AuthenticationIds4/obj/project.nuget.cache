@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VXiDl//O9ou9wNBfYhBN0eOvpPS3OuaiGsxFi6kTwLaBOqjoDERMywTYCIV7PSdTB9kDpnf0R+BrT3gWrCyVLA==",
+  "dgSpecHash": "M3jWFMtN3ndfjf/UB6c9v2EizBPfCHd03umJ0rHxEilo2ukCiA1MLeGzqO8UowEuHeLvvk1huwKCY3ws/yohow==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\AuthenticationIds4.csproj",
+  "projectFilePath": "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\AuthenticationIds4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hasee\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
     "C:\\Users\\hasee\\.nuget\\packages\\identityserver4\\4.1.1\\identityserver4.4.1.1.nupkg.sha512",
@@ -16,9 +16,7 @@
     "C:\\Users\\hasee\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\hasee\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.6.0\\system.identitymodel.tokens.jwt.5.6.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
-    "C:\\Users\\hasee\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
-    "C:\\Users\\hasee\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\hasee\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+    "C:\\Users\\hasee\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

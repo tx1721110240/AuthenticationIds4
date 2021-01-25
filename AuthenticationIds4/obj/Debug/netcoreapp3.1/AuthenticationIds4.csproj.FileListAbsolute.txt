@@ -57,3 +57,4 @@ D:\GitHub\Authenticationids4\AuthenticationIds4\obj\Debug\netcoreapp3.1\Authenti
 D:\GitHub\Authenticationids4\AuthenticationIds4\obj\Debug\netcoreapp3.1\AuthenticationIds4.dll
 D:\GitHub\Authenticationids4\AuthenticationIds4\obj\Debug\netcoreapp3.1\AuthenticationIds4.pdb
 D:\GitHub\Authenticationids4\AuthenticationIds4\obj\Debug\netcoreapp3.1\AuthenticationIds4.genruntimeconfig.cache
+D:\GitHub\AuthenticationIds4\AuthenticationIds4\obj\Debug\netcoreapp3.1\AuthenticationIds4.csprojAssemblyReference.cache

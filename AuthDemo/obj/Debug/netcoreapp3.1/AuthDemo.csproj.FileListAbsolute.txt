@@ -123,3 +123,7 @@ D:\GitHub\AuthenticationIds4\AuthDemo\obj\Debug\netcoreapp3.1\Razor\Views\Ids4\I
 D:\GitHub\AuthenticationIds4\AuthDemo\obj\Debug\netcoreapp3.1\Razor\Views\Ids4\IndexPolicyDouble.cshtml.g.cs
 D:\GitHub\AuthenticationIds4\AuthDemo\obj\Debug\netcoreapp3.1\Razor\Views\Ids4\IndexToken.cshtml.g.cs
 D:\GitHub\AuthenticationIds4\AuthDemo\obj\Debug\netcoreapp3.1\Razor\Views\Ids4\IndexCodeToken.cshtml.g.cs
+D:\GitHub\AuthenticationIds4\AuthDemo\bin\Debug\netcoreapp3.1\IdentityServer4.dll
+D:\GitHub\AuthenticationIds4\AuthDemo\bin\Debug\netcoreapp3.1\IdentityServer4.Storage.dll
+D:\GitHub\AuthenticationIds4\AuthDemo\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\GitHub\AuthenticationIds4\AuthDemo\obj\Debug\netcoreapp3.1\AuthDemo.csprojAssemblyReference.cache

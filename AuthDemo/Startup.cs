@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
@@ -28,20 +29,20 @@ namespace AuthDemo
         {
             services.AddControllersWithViews();//反射收集dll-控制器--action--PartManager
             #region 客户端模式/密码模式公用
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-           .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
-           {
-               options.Authority = "http://localhost:7200";
-               options.RequireHttpsMetadata = false;
-               options.TokenValidationParameters = new TokenValidationParameters
-               {
-                   ValidateIssuer = true,
-                   ValidIssuer = "http://localhost:7200",
-                   ValidateAudience = true,
-                   ValidAudience = "http://localhost:7200/resources",
-                   ValidateIssuerSigningKey = true
-               };
-           });
+            // services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            //.AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+            //{
+            //    options.Authority = "http://localhost:7200";
+            //    options.RequireHttpsMetadata = false;
+            //    options.TokenValidationParameters = new TokenValidationParameters
+            //    {
+            //        ValidateIssuer = true,
+            //        ValidIssuer = "http://localhost:7200",
+            //        ValidateAudience = true,
+            //        ValidAudience = "http://localhost:7200/resources",
+            //        ValidateIssuerSigningKey = true
+            //    };
+            //});
             #endregion
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\AuthenticationIds4.csproj": {}
+    "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\AuthenticationIds4.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\AuthenticationIds4.csproj": {
+    "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\AuthenticationIds4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\AuthenticationIds4.csproj",
+        "projectUniqueName": "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\AuthenticationIds4.csproj",
         "projectName": "AuthenticationIds4",
-        "projectPath": "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\AuthenticationIds4.csproj",
+        "projectPath": "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\AuthenticationIds4.csproj",
         "packagesPath": "C:\\Users\\hasee\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Authenticationids4\\AuthenticationIds4\\obj\\",
+        "outputPath": "D:\\GitHub\\AuthenticationIds4\\AuthenticationIds4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -60,16 +60,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -78,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
